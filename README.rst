@@ -2,5 +2,6 @@
 ===============================
 
 以下のページの問題をPythonで解きます.
+::
 
-** https://github.com/kazu-yamamoto/recursion-drill
+   https://github.com/kazu-yamamoto/recursion-drill
