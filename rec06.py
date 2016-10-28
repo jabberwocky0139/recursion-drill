@@ -31,7 +31,7 @@ def node(n):
     else:
         return sum([node(i) * node(n-i-1) for i in range(0, n)])
 
-## print(node(3))
+## print(node(13))
 
 def coin(n, arr):
     if n == 0:
@@ -43,4 +43,4 @@ def coin(n, arr):
     else:
         return coin(n - arr[0], arr) + coin(n, arr[1:])
 
-print(coin(100, [1, 5, 10, 100, 500]))
+print(coin(100, [1, 5, 10, 50, 100, 500]))
