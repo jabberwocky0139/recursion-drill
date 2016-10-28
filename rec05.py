@@ -47,6 +47,3 @@ def odd_rec(n):
         return not even_rec(n)
 
 print(even_rec(2))
-
-
-
