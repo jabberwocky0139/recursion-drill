@@ -16,7 +16,7 @@ def reverse_rec(arr, m):
 
 def close(string):
     if string[0] is ")":
-        return 1
+        return (1, string[1:])
     else:
         print("no close parenthesis")
         sys.exit()
@@ -25,8 +25,10 @@ def paren_seq(string):
     if string[0] is "(":
         open_sec(string[1:])
     else:
-        return 0
+        return (0, string)
 
 def open_sec(string):
     pass
 
+
+print(paren_seq("foo"))
